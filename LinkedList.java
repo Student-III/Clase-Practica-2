@@ -90,6 +90,7 @@ public class LinkedList<t> implements IList<t> {
     @Override
     public void clear() {
         first = null;
+        size=0;
     }
 
     @Override
